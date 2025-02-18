@@ -22,21 +22,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
+              title="Real Estate Price Prediction"
               description="This project Linear Regression , XGBoost and Random Forest to predict real estate prices based on location, size, and market trends. It helps buyers, sellers, and investors make data-driven decisions."
               ghLink="https://github.com/shivolen/MLProjects/blob/main/Real%20Estate%20PrIce%20Prediction.ipynb"
               demoLink="https://chatify-49.web.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Real Estate Price Prediction"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              
             />
           </Col>
 
